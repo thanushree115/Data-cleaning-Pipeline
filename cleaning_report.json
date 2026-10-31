@@ -1,0 +1,19 @@
+{
+    "input_file": "/mnt/data/Data-Cleaning-Pipeline/dataset.csv",
+    "output_file": "/mnt/data/Data-Cleaning-Pipeline/cleaned_dataset.csv",
+    "rows_before_cleaning": 7,
+    "rows_after_cleaning": 6,
+    "columns": 3,
+    "duplicate_rows_removed": 1,
+    "missing_values_found": {
+        "marks": 1
+    },
+    "missing_values_remaining": 0,
+    "cleaning_steps": [
+        "Standardized column names",
+        "Trimmed extra spaces and normalized text",
+        "Handled missing values",
+        "Removed duplicate rows",
+        "Saved cleaned CSV file"
+    ]
+}
